@@ -234,51 +234,55 @@ What command did you use?
 What command did you use?
 ----------
 
-
+nothing happened 
 
 ==========
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+nothing happened
 
 ==========
 23. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
-
+ls
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+ls -l Documents 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
-
+cd ~
+cd /
+cd ~/Desktop
+cd ..
 
 ==========
 27. What's a pathname?
 ----------
 
-
+the location in the file system
 
 ==========
 28. What's a directory?
 ----------
 
-
+A folder that constructs the filesystem uses organize files
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
+/user/name/folder
 ----------
