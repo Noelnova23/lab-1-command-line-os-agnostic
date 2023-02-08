@@ -31,6 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 Here's an answer
+/c/Users/deajr/mtec1003
 
 
 ==========
@@ -41,6 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
+animals/
 
 second time.
 
@@ -52,8 +54,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+animals/  food/
 
 ==========
 7. Type:
@@ -63,8 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+animals/  foo/  food/
 
 ==========
 8. Type:
@@ -74,7 +74,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/deajr/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -85,8 +85,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/c/Users/deajr/mtec1003/foo/bar
 
 ==========
 10. Type:
@@ -96,9 +95,8 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+ /c/Users/deajr/mtec1003/foo/bar/baz/qux
 
-
- 
 ==========
 11. Type:
 
@@ -107,6 +105,8 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+bash: ../../../..: Is a directory
+/c/Users/deajr/mtec1003/foo/bar/baz/qux
 
 
 
@@ -119,6 +119,7 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+rmdir: failed to remove 'animals': No such file or directory
 
 
 
@@ -130,7 +131,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/deajr
 
 
 ==========
@@ -141,7 +142,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+nothing happens
 
 
 ==========
@@ -153,7 +154,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+nothing happens 
 
 ==========
 15. Type:
@@ -164,12 +165,14 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/c/Users/deajr/mtec1003
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
+pwd
 
 
 ==========
@@ -193,6 +196,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
+$ mkdir -p lemon/strawberry/organe/pineapple
 
 
 ==========
@@ -201,6 +205,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
+$ mkdir aardvark
 
 
 ==========
