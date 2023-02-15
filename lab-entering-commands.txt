@@ -178,7 +178,6 @@ bash: syntax error near unexpected token `newline'
 16.  In the following line....
 
 
-
 What is the command, flag, argument, and prompt?
 ----------
 
